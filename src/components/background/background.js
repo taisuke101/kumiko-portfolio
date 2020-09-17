@@ -8,7 +8,7 @@ const query = graphql`
 {
     file(relativePath: {eq: "bookshelf.jpg"}) {
         childImageSharp {
-            fluid {
+            fluid(quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
             }
         }

@@ -13,8 +13,8 @@ export const HeroContainer = styled.section`
         transition: var(--transition);
     }
     a:hover {
-        background: var(--clr-white);
-        color: var(--clr-black);
+        background: #fff;
+        color: #000;
     }
     @media (min-width: 800px) {
       /* padding: 0 1rem; */

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 export const ImageContainer = styled.div`
+
     .bcg {
         min-height: 100vh;
         margin-top: -5rem;

@@ -5,7 +5,6 @@ export const SNS = styled.ul`
     list-style: none;
     font-size: 25px;
     color: #fff;
-  
 
     li {
         color: #fff;
