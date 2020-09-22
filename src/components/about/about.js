@@ -13,7 +13,7 @@ import {
 const About = () => {
     return (
         <AboutStyles>
-            <Title title='about me' />
+            <Title title='About me' />
             <SectionCenter>
                 {
                     services.map(({id, icon, label, text}) => {
