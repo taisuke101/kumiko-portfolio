@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'gatsby-image';
 
 import Title from '../title/title';
+import CustomButton from '../custom-button/custom-button';
 
 import { Wrapper } from './portfolio.styles';
 
@@ -26,6 +27,7 @@ const Portfolio = ({ projects: data }) => {
                     })
                 }
             </div>
+            <CustomButton pageUrl='/portfolio/'>詳細はこちら</CustomButton>
         </Wrapper>
     )
 }

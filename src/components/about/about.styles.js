@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutStyles = styled.div`
     margin: 0;
-    padding: 0;
+    padding: 20px;
 `
 
 export const SectionCenter = styled.div`
@@ -11,7 +11,8 @@ export const SectionCenter = styled.div`
     gap: 2rem;
     grid-gap: 2rem;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    padding-bottom: 25px;
 
     @media (min-width: 768px) {
         grid-template-columns: repeat(2, 1fr);
