@@ -1,84 +1,37 @@
 import styled from 'styled-components';
 
-export const PortfolioStyles = styled.div`
-    background: var(--clr-grey-10);
-    a {
-        display: block;
-        width: 9rem;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 3rem;
-    }
-`
-
-export const SectionCenter = styled.div`
+export const Wrapper = styled.section`
+    padding: 20px;
+    background: #f1f5f8;
+    .section-center {
     margin-top: 4rem;
-    max-width: 300px;
     display: grid;
     gap: 2rem;
-    /* safari workaround */
-    grid-gap: 2rem;
-    article {
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        border-radius: 0.25rem;
-        transition: all 0.3s linear;
-    }
-    article:hover {
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-`
+    grid-gap: 0.4rem;
 
-export const Container = styled.div`
-    position: relative;
-    overflow: hidden;
-    border-radius: 0.25rem;
-    background: hsl(21, 65%, 59%);
     .img {
         height: 20rem;
+        position: relative;
         border-radius: 0.25rem;
-        transition: all 0.3s linear;
+        width: 100%;
     }
-    &:hover .img {
-        opacity: 0.2;
+    .container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0.25rem;
+        background: hsl(21, 65%, 59%);
     }
-
     @media (min-width: 768px) {
-      .img {
-        height: 15rem;
-      }
-      grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     @media (min-width: 992px) {
-      .img {
-        height: 12.5rem;
-      }
-      grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     @media (min-width: 1200px) {
-      .img {
-        height: 15rem;
-      }
+        .img {
+            height: 35rem;
+        }
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     }
 `
-
-export const Info = styled.div`
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    opacity: 0;
-    transition: all 0.3s linear;
-    color: #fff;
-    text-align: center;
-    p {
-        margin-bottom: 0.5rem;
-        color: #fff;
-        text-transform: uppercase;
-    }
-    &:hover{
-        opacity: 1;
-    }
-`
-
-
