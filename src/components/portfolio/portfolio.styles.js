@@ -8,6 +8,7 @@ export const Wrapper = styled.section`
     display: grid;
     gap: 2rem;
     grid-gap: 0.4rem;
+    padding-bottom: 25px;
 
     .img {
         height: 20rem;

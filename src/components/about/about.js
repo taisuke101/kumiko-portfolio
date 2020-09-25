@@ -2,6 +2,8 @@ import React from 'react'
 
 import services from '../../constants/services';
 import Title from '../title/title';
+import CustomButton from '../custom-button/custom-button';
+
 import { 
     AboutStyles, 
     SectionCenter, 
@@ -12,6 +14,7 @@ import {
 
 const About = () => {
     return (
+        <>
         <AboutStyles>
             <Title title='About me' />
             <SectionCenter>
@@ -27,7 +30,9 @@ const About = () => {
                     })
                 }
             </SectionCenter>
+            <CustomButton pageUrl='/aboutme/'>詳細はこちら</CustomButton>
         </AboutStyles>
+        </>
     )
 }
 
