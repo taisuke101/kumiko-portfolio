@@ -11,6 +11,7 @@ export const SectionCenter = styled.div`
     gap: 2rem;
     grid-gap: 2rem;
     text-align: center;
+    padding: 30px;
 
     @media (min-width: 768px) {
         grid-template-columns: repeat(2, 1fr);

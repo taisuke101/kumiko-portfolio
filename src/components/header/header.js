@@ -25,8 +25,6 @@ const Header = () => {
             </HeaderStyles>
             <section className='banner'></section>
         </>
-
-
     )
 }
 
